@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Stopper from './components/Stopper/Stopper.js';
 
 function App() {
+  const [time, setTime] = useState(0);
+  const [timer, setTimer] = useState(null);
+
+  useEffect(() => {
+    return () => {
+      if (timer) clearInterval(setTimer);
+    };
+  }, [timer])
+
+ 
+
+  const methods = {
+    startTimer: () => {
+      if (!timer) {
+        setTimer(
+          setInterval(() => {
+            setTime(time => time + 10)
+          }, 10))
+      }
+    },
+    stopTimer: () => {
+      setTimer(null);
+      clearInterval(timer);
+    },
+    resetTimer: () => {
+      setTime(0)
+      setTimer(null);
+      clearInterval(timer);
+    },
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Stopper {...methods} time={time} />
     </div>
   );
 }
