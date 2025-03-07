@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Project - React Stopper - Static 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been completed as a part of JavaScript Front-end Bootcamp @ Kodilla.
+Project utilises clean JavaScript and React. During the project I have learned how to work useState and useEffect hooks. The aim of this project was to broaden understanding of component lifecycle.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+![JavaScriptBlog](https://github.com/hyldrix/javascript-blog/blob/main/preview/javascriptblog.png?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Where to view
 
-### `npm test`
+- **Live Preview:** [https://hyldrix.github.io/javascript-blog/](https://hyldrix.github.io/javascript-blog/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Repository
 
-### `npm run build`
+- **Repo address**: https://github.com/hyldrix/javascript-blog.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You also have the option to download a compressed zip file or clone the repository directly from the GitHub repository page by using the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/hyldrix/javascript-blog.git
+```
+Since this is a static webpage, you can simply locate and open the index.html file using your preferred web browser to view the content.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to run project
+### Installation
+```bash
+npm install
+```
+### Run Preview Mode
+```bash
+npm start
+```
+### Build project
+```bash
+npm run build
+```
+### Test HTML and CSS structure
+```bash
+npm run test
+```
 
-### `npm run eject`
+## Technologies & tools
+- HTML, CSS, Sass, Handlebars
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://skillicons.dev/icons?i=html,css,sass,js," alt="Tech Stack" />
